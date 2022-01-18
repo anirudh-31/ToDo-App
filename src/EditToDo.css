@@ -1,0 +1,29 @@
+.EditToDo__form > label {
+  margin-right: 10px;
+}
+
+.EditToDo {
+  margin: auto;
+}
+
+.EditToDo__form > input {
+  border: none;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 2px;
+  padding-left: 2px;
+}
+
+.EditToDo__form > button {
+  padding: 5px;
+  height: 30px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.EditToDo__form > button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}

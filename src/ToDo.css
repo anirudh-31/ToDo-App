@@ -1,0 +1,41 @@
+.ToDo {
+  color: #fff;
+  background-color: #191933;
+  margin-top: 5px;
+  padding-left: 5px;
+  font-size: 0.7em;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 2px;
+  transition: all 125ms ease-in;
+}
+
+.ToDo:hover {
+  transform: scale(1.05);
+  box-shadow: 1px 1px 2px 0.5px #2e366e, -1px -1px 2px 0.5px #2e366e;
+}
+.ToDo__task {
+  font-size: 1.5em;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.ToDo__toggles {
+  margin-right: 5px;
+}
+
+.ToDo__toggles > button {
+  border: none;
+  background-color: transparent;
+  margin-right: 15px;
+}
+.ToDo__toggles > button > img {
+  transition: transform 125ms ease-in;
+  cursor: pointer;
+}
+
+.ToDo__toggles > button > img:hover {
+  transform: scale(1.15);
+}

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&display=swap");
+
+.ToDoList {
+  margin: 20px auto;
+  /* background-image: linear-gradient(to left, #bdbbbe 0%, #9d9ea3 100%),
+    radial-gradient(
+      88% 271%,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(254, 254, 254, 0.25) 1%,
+      rgba(0, 0, 0, 0.25) 100%
+    ),
+    radial-gradient(
+      50% 100%,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 100%
+    ); */
+  background-color: #10101d;
+  background-blend-mode: normal, lighten, soft-light;
+  width: 40vw;
+  font-family: "Nunito", sans-serif;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 5px rgba(255, 122, 151, 0.5),
+    -2px -2px 5px 5px rgba(242, 140, 143, 0.5);
+}
+
+.ToDoList__Title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fb3640;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+  width: 100%;
+  border-radius: 8px 8px 0px 0px;
+  cursor: auto;
+}
+
+.ToDoList__Title > h1 {
+  font-weight: 500;
+  font-size: 2.25em;
+}
+
+.ToDoList__Title > p {
+  font-weight: 200;
+  font-size: 1em;
+}
+
+.ToDoList__form {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+label {
+  font-size: 1.25em;
+  margin-bottom: 0;
+  color: #fff;
+  font-weight: 400;
+}
